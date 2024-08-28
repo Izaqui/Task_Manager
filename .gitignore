@@ -1,0 +1,16 @@
+# Arquivos gerados pelo sistema operacional
+/tmp
+/temp
+.DS_Store
+
+# Arquivos de configuração local
+.DS_Store
+.idea
+.vscode
+
+# Logs
+logs
+*.log
+
+# Pacotes de instalação
+/node_modules

@@ -1,0 +1,61 @@
+.Body{
+    justify-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 80vh;
+
+}
+.Body h1{
+    font-family:cursive;
+    font-size: 5.5rem;
+}
+.Body form{
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(104, 102, 102, 0.4);
+    gap: 5px
+}
+.Body form input {
+    padding: 0.9rem;
+    font-size: 14px;
+    width: 20rem;
+    border: 1px solid #6e76ee;
+    margin-bottom: 0.5vw;
+    margin-top: 5px;
+    border-radius: 10rem;
+    transition: all linear 160ms;
+    outline: none;
+}
+.Body form input:hover{
+    transform: scale(1.1);
+}
+.Body form p{
+    margin-left: 0.9rem;
+    text-align: left;
+}
+.Body form button{
+    border: 1px solid #6e76ee;
+    border-radius: 9rem;
+    color: #f1f1f1;
+    background-color: #6e76ee;
+    padding: 0.8vw;
+    margin-top: 2cap;
+    font-size: 1.5rem;
+}
+.Body form button:hover{
+    transform: scale(1.06);
+    background-color: #4551f1;
+    cursor:pointer;
+}
