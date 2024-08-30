@@ -10,9 +10,10 @@
     height: 80vh;
 
 }
-.Body h1{
+h1{
     font-family:cursive;
-    font-size: 5.5rem;
+    font-size: 3.5rem;
+    text-align: center;
 }
 .Body form{
     margin-top: 0.1rem;
@@ -34,20 +35,18 @@
     border: 1px solid #6e76ee;
     margin-bottom: 0.5vw;
     margin-top: 5px;
-    border-radius: 10rem;
+    border-radius: 0.5rem;
     transition: all linear 160ms;
     outline: none;
 }
-.Body form input:hover{
-    transform: scale(1.1);
-}
+
 .Body form p{
     margin-left: 0.9rem;
     text-align: left;
 }
 .Body form button{
     border: 1px solid #6e76ee;
-    border-radius: 9rem;
+    border-radius: 0.5rem;
     color: #f1f1f1;
     background-color: #6e76ee;
     padding: 0.8vw;
