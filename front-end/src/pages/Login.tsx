@@ -24,7 +24,7 @@ const Login: React.FC = () => {
     };
 
     try {
-      const response = await api.post('users', data);
+      const response = await api.post('/auth/login', data);
       const { status } = response.data as IResponse;
 
       if (status === 'error') {
@@ -75,7 +75,7 @@ const Login: React.FC = () => {
         {error && <p className="error">{error}</p>}
         {success && <p className="success">{success}</p>} {/* Exibe mensagem de sucesso */}
 
-        <p>Não tem uma conta? <Link to="/Register">Criar Conta</Link></p>
+        <p>Não tem uma conta? <Link className='link' to="/Register">Criar Conta</Link></p>
       </div>
     </div>
   );

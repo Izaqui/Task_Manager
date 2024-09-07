@@ -45,11 +45,14 @@
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  background-color: #a7ebf7;
+  background-color: #24283b;
   border-radius: 2rem;
   padding: 6rem;
   box-shadow: 10px 10px 40px rgba(104, 102, 102, 0.4);
   gap: 5px
+}
+.modal h2{
+  color: azure;
 }
 
 .modal select {

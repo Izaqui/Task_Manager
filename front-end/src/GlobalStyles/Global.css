@@ -8,12 +8,18 @@
     align-content: center;
     justify-content: center;
     height: 80vh;
+    color:#f1f1f1;
+    background-color: #3d3d3d;
 
+}
+.Body p .link{
+    color: rgb(34, 190, 190);
 }
 h1{
     font-family:cursive;
     font-size: 3.5rem;
     text-align: center;
+    color: #ffffff;
 }
 .Body form{
     margin-top: 0.1rem;
@@ -22,7 +28,7 @@ h1{
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #24283b;
     border-radius: 7px;
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(104, 102, 102, 0.4);
